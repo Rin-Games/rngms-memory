@@ -1,0 +1,9 @@
+[package]
+name = "rngms-memory"
+version = "0.1.0"
+edition = "2024"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61.2", default-features = false, features = ["Win32_System_Memory"] }
+
+[dependencies]
