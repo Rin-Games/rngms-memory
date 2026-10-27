@@ -7,5 +7,6 @@ mod error;
 mod protection;
 
 pub use region::Region;
-pub use error::{Error, Result, ErrorType};
+pub use error::{Error, ErrorKind, ErrorType, Result};
 pub use protection::{Protection, ProtectionType};
+pub use sys::{page_size, allocation_granularity};
