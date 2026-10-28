@@ -1,3 +1,5 @@
+// This module needs to be reworked.
+
 use core::{error, fmt, result};
 
 use crate::sys;
